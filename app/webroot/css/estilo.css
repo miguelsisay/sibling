@@ -1,0 +1,28 @@
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+#container{
+	padding: 0;
+	margin: :;
+}
+#content{
+	width: 95%;
+	margin: 2% auto;
+}
+.main{
+	background: #EEEEEE;
+	padding:  5%;
+	margin: 1.5%;
+}
+
+input{
+	margin: 2px;
+}
+.createuser {
+	color: #000;
+	margin: 0 0 0 14%;
+}
+#rol {
+	display: none;
+}
