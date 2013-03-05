@@ -31,6 +31,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->Html->css('bootstrap-responsive');
 		echo $this->Html->css('bootstrap');
 		echo $this->Html->meta('icon');
+		echo $this->Html->script('bootstrap');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -43,10 +44,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<div class="container">
 					<a href="/sibling" class="brand">NEREXIS</a>					
 					<ul class="nav">
-						<li><a href="/sibling/education">Educaciòn</a></li>
-						<li><a href="/sibling/perfiles">Perfiles</a></li>
-						<li><a href="/sibling/usuarios">Usuarios</a></li>
-						<li><a href="/sibling/work">Trabajo</a></li>
+						<li><a href="/sibling/education">¿Quienes Somos?</a></li>
+						<li><a href="/sibling/recluta">Procèso de Recluta y Selecciòn</a></li>
+						<li><a href="/sibling/perfiles">Pregùntas Frecuentes</a></li>
 					</ul>
 					<?php
 						echo $this->Session->flash('auth');
